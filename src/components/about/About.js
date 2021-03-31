@@ -66,10 +66,20 @@ function About() {
                   find their details here:
                 </p>
                 <ul>
-                  <li className="font-weight-lighter mb-2">Restaurant Website for Online Food Delivery</li>
-                  <li className="font-weight-lighter mb-2">NGO Website where anyone can donate to the portal for helping poor people</li>
-                  <li className="font-weight-lighter mb-2">Auto Search error Stack Overflow using Python which can decode error in C++/JAVA/Python</li>
-                  <li className="font-weight-lighter mb-2">Personal Portfolio</li>
+                  <li className="font-weight-lighter mb-2">
+                    Restaurant Website for Online Food Delivery
+                  </li>
+                  <li className="font-weight-lighter mb-2">
+                    NGO Website where anyone can donate to the portal for
+                    helping poor people
+                  </li>
+                  <li className="font-weight-lighter mb-2">
+                    Auto Search error Stack Overflow using Python which can
+                    decode error in C++/JAVA/Python
+                  </li>
+                  <li className="font-weight-lighter mb-2">
+                    Personal Portfolio
+                  </li>
                 </ul>
               </div>
               <div className="my-work"></div>
