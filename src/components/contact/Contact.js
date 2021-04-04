@@ -3,6 +3,7 @@ import { GoMailRead,GoMarkGithub } from "react-icons/go";
 function Contact() {
   return (
     <div>
+        <div className="bg-home"></div>
       <div className="contact">
       <div className="container">
         <div className="row">

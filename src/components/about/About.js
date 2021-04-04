@@ -11,10 +11,11 @@ import { AiFillMail } from "react-icons/ai";
 function About() {
   return (
     <div>
-      <div className="about">
+     
+      <div className="about m-auto">
         <div className="container">
-          <div className="row align-items-center">
-            <h2 className="">A little about me,</h2>
+          <div className="row align-items-center d-lg-flex">
+            <h4 className="sub-title mg-b22">A little about me,</h4>
             <div className="col-lg-6 col-md-12">
               <h2 className="mb-3">Hello!</h2>
             </div>
@@ -28,12 +29,7 @@ function About() {
             <p className="font-weight-bolder">Connect with me here:</p>
             <ul className="social-links list-unstyled">
               <li>
-                <Link to="">
-                  <FaFacebookF className="social-icons display-6" />
-                </Link>
-              </li>
-              <li>
-                <Link to="">
+                <Link to="https://twitter.com/amishakumari544">
                   <FaTwitter className="social-icons display-6 " />
                 </Link>
               </li>

@@ -12,6 +12,7 @@ function App() {
   return (
     <div>
       <Menu />
+      
     <Router>
       <Home />
       <About />

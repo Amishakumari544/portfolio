@@ -5,9 +5,26 @@ body{
   
 }
 html{
-
+    --scrollbarBG: #ffffff;
+    --thumbBG: #8bffb2;
   scroll-behavior: smooth;
 }
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
 /* Menu */
 .contact-btn{
   background: #1ffd17;
@@ -25,34 +42,62 @@ html{
 .navbar-brand{
   color: darkgreen;
 }
-.nav-item{
-  color: #000;
-  font-weight: 400;
-  font-size: 16px;
-  display: flex;
-  justify-content:space-evenly;
-  margin-top: 10px;
-}
-.nav-link active{
-  color: orange;
-}
+
 
 /* Home */
+.home{
+  margin-top: 180px;
+}
+.bg-home{
+  background-image: url("/src/assets/bg3.png");
+}
+.btn-resume{
+  padding: 20px 35px 18px 35px;
+  outline: 0;
+  border: 0;
+  background: linear-gradient(
+    -135deg
+    , rgb(255, 255, 255) 0%, #1ffd17 100%);
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 5px;
+    letter-spacing: 0.95px;
+    color: white;
+}
 .home-img{
   width: 100%;
   height: auto;
 }
+
 .home-heading{
   font-size: 3.5rem !important;
 }
 .home-header{
-  font-size: 3.2rem;
+  font-size: 75px;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 700;
   color: #1ffd17;
 }
 /* services */
 .projectCard{
   width:30%;
   height: 50vh;
+}
+.service-bg{
+  background-image: url("/src/assets/bg.png") ;
+  background-repeat: no-repeat;
+  
+}
+.email-color{
+  color: #1ffd17;
+  font-size:25px;
+}
+.p-text{
+  position: absolute;
+}
+.bg-img{
+  position: relative;
 }
 .service-title{
   font-size: 44px;
@@ -72,8 +117,20 @@ html{
 }
 /* about */
 .about{
-  background: #f9f9ff;
-  padding: 90px 0;
+  background: #ffffff;
+  padding: 71px 66px 36px 69px;
+  width: 70%;
+  border-radius: 42px;
+}
+.mg-b22{
+  margin-bottom: 22px;
+}
+.sub-title{
+  color: #1ffd17;
+  font-size: 24px;
+  position: relative;
+  display: inline-block;
+  font-family: 'Playball', sans-serif;
 }
 .about-img{
   outline: 10px solid #90acd1;
@@ -111,13 +168,63 @@ html{
     display: flex;
     justify-content: space-evenly;
 }
+/* Education */
+.shape-right{
+  top: -270px;
+  right: 0;
+  position: absolute;
+}
 
+.uk-timeline .uk-timeline-item .uk-card {
+	max-height: 300px;
+  padding: 18px 15px 23px 15px;
+}
+
+.uk-timeline .uk-timeline-item {
+    display: flex;
+    position: relative;
+}
+
+.uk-timeline .uk-timeline-item::before {
+    background: #dadee4;
+    content: "";
+    height: 100%;
+    left: 19px;
+    position: absolute;
+    top: 20px;
+    width: 2px;
+		z-index: -1;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+		margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1ffd17;
+    padding: 10px;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0 0 1rem;
+}
 
 /* Conatct */
+.btn-contact ,.bg-contact{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px 0px rgb(85 128 255 / 20%);
+  padding: 18px 15px 23px 15px;
+  border-radius: 36px;
+  max-width: 370px;
+  margin: 0 auto;
+}
 .contact{
   background: rgb(20, 18, 18);
   padding: 90px 0;
   color: white;
+  margin-top: 25px;
 }
 .contact h1{
   color: white;
