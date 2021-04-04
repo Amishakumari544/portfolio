@@ -1,9 +1,13 @@
 import React from "react";
 
 function Home() {
-  return (
-   
-        
+    return (
+        <div>
+            <div className="container">
+            <div className="row">
+            <div className="col-lg-7 m-auto">
+            <h1 className="home-heading">Hello! I Am</h1>
+            <span className="home-header display-4"> Kumari</span>
     
     <div>
              
