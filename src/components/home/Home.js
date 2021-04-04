@@ -6,7 +6,7 @@ function Home() {
             <div className="container">
             <div className="row">
             <div className="col-lg-7 m-auto">
-            <h1 className="home-heading">Hi! I Am</h1>
+            <h1 className="home-heading">Hello! I Am</h1>
             <span className="home-header display-4">Amisha Kumari</span>
     
             {/* <button class="btn badge rounded-pill contact-btn">Hire Me</button> */}
