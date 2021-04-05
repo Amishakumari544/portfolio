@@ -316,7 +316,7 @@ span{
   .home-header{
     font-size: 25px !important; 
    }
-   h3{
+   h2,h3,h4,h5{
      font-size: 20px;
    }
    .btn-resume{
@@ -326,16 +326,29 @@ span{
    .lead,p,li{
      font-size: 14px;
    }
-   h2{
-     font-size: 20px;
+   .service-block{
+    padding: 10px;
+    width: 150px;
    }
 }
+
+/* Text animation */
+
+
 
 @media only screen and (min-width: 600px) {
   .home-header,
   h3{
    font-size: 30px !important; 
   }
+  .service-block{
+    padding: 10px;
+    width: 190px;
+    margin-top: 20px;
+   }
+   .programming-icon{
+     margin-top: 25px;
+   }
  
 }
 @media only screen and (min-width: 768px) {

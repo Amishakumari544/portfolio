@@ -9,19 +9,20 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
+import Svg from "../../common/svg/Svg";
 function About() {
   return (
     <div>
       <motion.div
-        className="about"
+        className=""
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ type: 'spring', delay: 0.5 }}
       >
         <div className="container">
           <div className="row ">
-            <div className="col-lg-6 col-md-12 col-sm-5">
-            <h4 className="sub-title mg-b22">A little about me,</h4>
+            <div className="col-lg-7 col-md-12 col-sm-5">
+            <h4 className="sub-title mg-b22 mt-2">A little about me,</h4>
               <h2 className="mb-3">Hello!</h2>
             </div>
             <div className="about-text">
@@ -75,9 +76,11 @@ function About() {
                 </Link>
               </motion.li>
             </ul>
-            <div>
             </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 text-left">
+         </div>
+          <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12 text-left">
+              <h4 className="sub-title mg-b22">Projects i have worked on,</h4>
                 <h2 className="mb-3">My Works</h2>
                 <p>
                   I have worked on various projects in different domains you can
@@ -99,11 +102,16 @@ function About() {
                     Personal Portfolio
                   </li>
                 </ul>
+         
               </div>
-              <div className="my-work"></div>
+              <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="my-work">
+              <Svg />
+              </div>
+              </div>
             </div>
           </div>
-        </div>
+     
       </motion.div>
     </div>
   );

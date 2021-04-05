@@ -3,9 +3,9 @@ import bg2 from "../../assets/bg2.png";
 function MyEducation() {
   return (
     <div>
-      <div className="education m-auto">
+      <div className="education">
         <div className="container">
-          <div className="row align-items-center d-lg-flex">
+          <div className="row">
             <div className="col-left">
               <h4 className="sub-title">Educational qualification,</h4>
               <h2 className="mb-5 mt-4">Education</h2>

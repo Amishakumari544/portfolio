@@ -15,7 +15,7 @@ function Services(props) {
                   Skills are money!! <br /> Here are my skills XP
                 </p>
                 <div className="bg-img">
-                  <p className="font-weight-light p-text">
+                  <p className="font-weight-light mb-4 p-text">
                     I have also tried hands on Wordpress,Canva,Figma and a lot
                     more.{" "}
                   </p>
@@ -36,7 +36,7 @@ function Services(props) {
                 </div>
               </div>
               <div className="row">
-                <div className="d-flex align-items-baseline m-5 justify-content-around">
+                <div className="d-flex align-items-baseline justify-content-around">
                   <Card
                     link="https://image.flaticon.com/icons/png/128/4389/4389267.png"
                     title="C++ / C"
