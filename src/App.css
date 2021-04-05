@@ -64,6 +64,13 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 0.95px;
     color: white;
 }
+.btn-resume:hover{
+  border-radius: 50px;
+  transition: all .5s ease-in;
+  background: none !important;
+  color: #1ffd17;
+  border: 2px solid #1ffd17;
+}
 .home-img{
   width: 100%;
   height: auto;
@@ -78,6 +85,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   font-weight: 700;
   color: #1ffd17;
+
 }
 /* services */
 .projectCard{
@@ -294,4 +302,13 @@ span{
   margin-top: 10px;
   font-size: 24px;
   padding: auto;
+}
+/* loader */
+
+.loader{
+  width: 10px;
+  height: 10px;
+  margin: 40px auto;
+  border-radius: 54px;
+  background:#1ffd17;
 }

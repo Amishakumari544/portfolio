@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
   FaFacebookF,
@@ -11,8 +12,12 @@ import { AiFillMail } from "react-icons/ai";
 function About() {
   return (
     <div>
-     
-      <div className="about m-auto">
+      <motion.div
+        className="about m-auto"
+        initial={{ x: "100vw" }}
+        animate={{ x: 0 }}
+        transition={{ type: 'spring', delay: 0.5 }}
+      >
         <div className="container">
           <div className="row align-items-center d-lg-flex">
             <h4 className="sub-title mg-b22">A little about me,</h4>
@@ -28,31 +33,46 @@ function About() {
             </div>
             <p className="font-weight-bolder">Connect with me here:</p>
             <ul className="social-links list-unstyled">
-              <li>
+              <motion.li
+                whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
+                transition={{ type: "spring", stiffness: 100 }}
+              >
                 <Link to="https://twitter.com/amishakumari544">
                   <FaTwitter className="social-icons display-6 " />
                 </Link>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li
+                whileHover={{ scale: 1.3, originX: 0, color: '#777777' }}
+                transition={{ type: 'spring', stiffness: 100 }}
+              >
                 <Link to="">
                   <FaInstagram className="social-icons display-6" />
                 </Link>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li
+                whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
+                transition={{ type: 'spring', stiffness: 100 }}
+              >
                 <Link to="">
                   <FaGithub className="social-icons display-6" />
                 </Link>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li
+                whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
+                transition={{ type: 'spring', stiffness: 100 }}
+              >
                 <Link to="">
                   <FaLinkedinIn className="social-icons display-6" />
                 </Link>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li
+                whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
+                transition={{ type: 'spring', stiffness: 100 }}
+              >
                 <Link to="">
                   <AiFillMail className="social-icons display-6" />
                 </Link>
-              </li>
+              </motion.li>
             </ul>
             <div>
               <div className="col-lg-6 col-md-12 text-left">
@@ -82,7 +102,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
