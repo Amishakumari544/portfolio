@@ -127,7 +127,7 @@ body::-webkit-scrollbar-thumb {
 .about{
   background: #ffffff;
   padding: 71px 66px 36px 69px;
-  width: 70%;
+ 
   border-radius: 42px;
 }
 .mg-b22{
@@ -311,4 +311,36 @@ span{
   margin: 40px auto;
   border-radius: 54px;
   background:#1ffd17;
+}
+@media only screen and (max-width: 600px) {
+  .home-header{
+    font-size: 25px !important; 
+   }
+   h3{
+     font-size: 20px;
+   }
+   .btn-resume{
+     font-size: 10px;
+     padding: 10px;
+   }
+   .lead,p,li{
+     font-size: 14px;
+   }
+   h2{
+     font-size: 20px;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+  .home-header,
+  h3{
+   font-size: 30px !important; 
+  }
+ 
+}
+@media only screen and (min-width: 768px) {
+
+  .home-header{
+    font-size: 30px !important; 
+   }
 }

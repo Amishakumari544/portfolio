@@ -10,7 +10,7 @@ function Services(props) {
           <div className="row align-items-center">
             <div className="col-lg-5 mb-5 mb-lg-0">
               <div className="">
-                <h2 className="service-title mb-4 mt-3">Skills</h2>
+                <h2 className="s mb-4 mt-3">Skills</h2>
                 <p>
                   Skills are money!! <br /> Here are my skills XP
                 </p>

@@ -13,15 +13,15 @@ function About() {
   return (
     <div>
       <motion.div
-        className="about m-auto"
+        className="about"
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ type: 'spring', delay: 0.5 }}
       >
         <div className="container">
-          <div className="row align-items-center d-lg-flex">
+          <div className="row ">
+            <div className="col-lg-6 col-md-12 col-sm-5">
             <h4 className="sub-title mg-b22">A little about me,</h4>
-            <div className="col-lg-6 col-md-12">
               <h2 className="mb-3">Hello!</h2>
             </div>
             <div className="about-text">
@@ -32,6 +32,7 @@ function About() {
               </p>
             </div>
             <p className="font-weight-bolder">Connect with me here:</p>
+            <div className="social-div">
             <ul className="social-links list-unstyled">
               <motion.li
                 whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
@@ -75,7 +76,8 @@ function About() {
               </motion.li>
             </ul>
             <div>
-              <div className="col-lg-6 col-md-12 text-left">
+            </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 text-left">
                 <h2 className="mb-3">My Works</h2>
                 <p>
                   I have worked on various projects in different domains you can

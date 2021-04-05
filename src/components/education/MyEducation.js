@@ -3,15 +3,12 @@ import bg2 from "../../assets/bg2.png";
 function MyEducation() {
   return (
     <div>
-      <div className="shape-right">
-        <img src={bg2} alt="bg" />
-      </div>
       <div className="education m-auto">
         <div className="container">
           <div className="row align-items-center d-lg-flex">
             <div className="col-left">
               <h4 className="sub-title">Educational qualification,</h4>
-              <h2 className="display-4 mt-4">Education</h2>
+              <h2 className="mb-5 mt-4">Education</h2>
               <div class="uk-container uk-padding">
                 <div class="uk-timeline ">
                   <div class="uk-timeline-item">
