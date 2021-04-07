@@ -87,6 +87,9 @@ body::-webkit-scrollbar-thumb {
   color: #1ffd17;
 
 }
+/* Animation */
+
+
 /* services */
 .projectCard{
   width:30%;
@@ -98,7 +101,7 @@ body::-webkit-scrollbar-thumb {
   
 }
 .email-color{
-  color: #1ffd17;
+  color: #b417fd;
   font-size:25px;
 }
 .p-text{
