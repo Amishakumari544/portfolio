@@ -53,12 +53,12 @@ function Services(props) {
                 <b>Get a project? Let’s talk.</b>
               </h4>
               <span className="email-color">@</span>{" "}
-              <Link
-                to="amishakumari544@gmail.com"
+              <a
+                href="mailto: amishakumari544@gmail.com"
                 className="list-unstyled text-decoration-none text-muted"
               >
                 amishakumari544@gmail.com
-              </Link>
+              </a>
             </div>
           </div>
         </div>

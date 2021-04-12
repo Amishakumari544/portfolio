@@ -39,41 +39,41 @@ function About() {
                 whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
                 transition={{ type: "spring", stiffness: 100 }}
               >
-                <Link to="https://twitter.com/amishakumari544">
+                <a href="https://twitter.com/amishakumari544">
                   <FaTwitter className="social-icons display-6 " />
-                </Link>
+                </a>
               </motion.li>
               <motion.li
                 whileHover={{ scale: 1.3, originX: 0, color: '#777777' }}
                 transition={{ type: 'spring', stiffness: 100 }}
               >
-                <Link to="">
+                <a href="https://www.instagram.com/_amisha.kumari/">
                   <FaInstagram className="social-icons display-6" />
-                </Link>
+                </a>
               </motion.li>
               <motion.li
                 whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
                 transition={{ type: 'spring', stiffness: 100 }}
               >
-                <Link to="">
+                <a href="https://github.com/Amishakumari544">
                   <FaGithub className="social-icons display-6" />
-                </Link>
+                </a>
               </motion.li>
               <motion.li
                 whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
                 transition={{ type: 'spring', stiffness: 100 }}
               >
-                <Link to="">
+                <a href="https://www.linkedin.com/in/amisha-kumari-936a37168/">
                   <FaLinkedinIn className="social-icons display-6" />
-                </Link>
+                </a>
               </motion.li>
               <motion.li
                 whileHover={{ scale: 1.3, originX: 0, color: "#000" }}
                 transition={{ type: 'spring', stiffness: 100 }}
               >
-                <Link to="">
+                <a href="amishakumari544@gmail.com">
                   <AiFillMail className="social-icons display-6" />
-                </Link>
+                </a>
               </motion.li>
             </ul>
             </div>

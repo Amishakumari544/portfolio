@@ -14,9 +14,9 @@ function Home() {
             </figure>
       <div className="container home">
         <div className="row">
-          <div className="col-sm-12">
           <div className="text-center">
-            <h2 className="home-header text-center">Hello, 👋 I'm Amisha.</h2>
+          <div className="col-lg-12 col-sm-12">
+            <h2 className="text-center">Hello, 👋 I'm Amisha.</h2>
         
             <h3>Frontend Enthusiastic located in Jamshedpur</h3>
             <button className="btn-resume">Download Resume</button>
