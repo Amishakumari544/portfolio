@@ -45,6 +45,10 @@ body::-webkit-scrollbar-thumb {
 
 
 /* Home */
+.profile{
+  width: 400px;
+  height:400px;
+}
 .home{
   margin-top: 180px;
 }
@@ -52,6 +56,7 @@ body::-webkit-scrollbar-thumb {
   background-image: url("/src/assets/bg3.png");
 }
 .btn-resume{
+  text-decoration: none;
   padding: 20px 35px 18px 35px;
   outline: 0;
   border: 0;

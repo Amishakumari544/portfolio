@@ -91,8 +91,10 @@ function About() {
                     Restaurant Website for Online Food Delivery
                   </li>
                   <li className="font-weight-lighter mb-2">
-                    NGO Website where anyone can donate to the portal for
-                    helping poor people
+                    CovidLine
+                  </li>
+                  <li className="font-weight-lighter mb-2">
+                   Apna Campus (0.1v)
                   </li>
                   <li className="font-weight-lighter mb-2">
                     Auto Search error Stack Overflow using Python which can

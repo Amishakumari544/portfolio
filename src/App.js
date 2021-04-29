@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact";
 import MyEducation from "./components/education/MyEducation";
 import About from './components/about/About';
 import "./App.css";
+import FooterUI from './common/FooterUi';
 function App() {
   return (
     <div>
@@ -17,7 +18,7 @@ function App() {
       <About />
       <MyEducation />
       <Services />
-      <Contact />
+      <FooterUI />
       </Router>
     </div>
   )
